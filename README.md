@@ -100,7 +100,7 @@ Relevance_score_official =Relevance_score_official.reset_index()
 Relevance_score_official
 ```
 
-##Conclusion and Recommendation
+## Conclusion and Recommendation
 
 Retweet influence, mentions influence and indegree influence have big a role to play in determining the
 level of influence a user has on the society and its environment. And this is a strength that can be
