@@ -2,6 +2,9 @@
 
 An informed insight of how an individual has influence on others in a circle can help a business create social media campaigns that aid in marketing and advertising. An approach to determine this is summarized here with explanations of how to use tweepy API in python to exctract data and how to use the data obtained
 to rank the users. Users are ranked based on their influence.
+
+This blog is among the challenges undertaken at [10 Academy](https://www.10academy.org/)training in July 2020.
+
 You can use the [editor on GitHub](https://github.com/Bessy-Mukaria/Blog_2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
