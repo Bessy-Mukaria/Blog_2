@@ -101,6 +101,7 @@ Relevance_score_official
 ```
 
 ##Conclusion and Recommendation
+
 Retweet influence, mentions influence and indegree influence have big a role to play in determining the
 level of influence a user has on the society and its environment. And this is a strength that can be
 tapped into and utilized by businesses to push products and services through campaigns by partnering
