@@ -5,9 +5,6 @@ to rank the users. Users are ranked based on their influence.
 
 This blog is among the challenges undertaken at [10 Academy](https://www.10academy.org/)training in July 2020.
 
-You can use the [editor on GitHub](https://github.com/Bessy-Mukaria/Blog_2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ## Problem statement
 What determines the level of influence a user has on social media?
 A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
@@ -28,6 +25,23 @@ First, I import needed packages. Tweepy is a must when dealing with data from Tw
 import tweepy
 import pandas as pd
 ```
+Next I provide four keys/tokens from  my Twitter App Developer as this is  second step for any Tweepy operation.Then I initiate the authentication and pass it with 
+Tweepy API to access information about the Twitter handles obtained above
+```
+#providing twitter Api
+consumer_key = (YOUR TWITTER_API_KEY)
+consumer_secret = (YOUR TWITTER_API_SECRET)
+access_token = ( YOUR TWITTER_ACCESS_TOKEN)
+access_token_secret = ( YOUR TWITTER_ACCESS_TOKEN_SECRET)
+
+#Initiating the aunthetication
+auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+self.auth = auth
+self.api = tweepy.API(auth, wait_on_rate_limit=True)
+```
+## Data Processing
+In ensuring data quality control, empty entries  were droppped to ensure completeness of the data and correct inference of the results during analysis.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
