@@ -10,8 +10,8 @@ What determines the level of influence a user has on social media?
 A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
 
 1. Popularity (Retweet Influence): measured by the number of Retweets and Likes users get
-2. Reach (Indegree Influence): measured by the size of their audience.
-3. Relevance (Mentions Influence): measured by the relevancy of their content.
+2. Reach (Indegree Influence): measured by the size of their audience i.e followers and following.
+3. Relevance (Mentions Influence): measured by the relevancy of their content i.e user mentions.
 
 ## Methodology
 ## Data Extraction
@@ -41,7 +41,11 @@ self.auth = auth
 self.api = tweepy.API(auth, wait_on_rate_limit=True)
 ```
 ## Data Processing
-In ensuring data quality control, empty entries  were droppped to ensure completeness of the data and correct inference of the results during analysis.
+In ensuring data quality control  and correct inference of the results during analysis, I cleaned the data keeping in mind  the variables of interest i.e number of followers, number of following users,user mentions,retweet count,favorite count and the hashtag used by the users.Below is a breakdown of the variables of interest and the measures of ranks used.
+* Popular score: retweet count and retweet count
+* Relevance score: user mentions
+* Reach score: number of followers and user's following
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
