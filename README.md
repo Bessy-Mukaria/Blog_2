@@ -12,6 +12,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 What determines the level of influence a user has on social media?
 A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
 
+1.Popularity (Retweet Influence): measured by the number of Retweets and Likes users get
+2.Reach (Indegree Influence): measured by the size of their audience.
+3.Relevance (Mentions Influence): measured by the relevancy of their content.
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
