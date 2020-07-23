@@ -64,6 +64,19 @@ Popular_score_official['Popular_score'] = Popular_score
 Popular_score_official=Popular_score_official.sort_values("Popular_score",ascending=False)
 Popular_score_official = Popular_score_official.reset_index()  #resetting the index
 Popular_score_official
+
+##Barplot.
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+##Barplot
+fig= plt.figure(figsize=(10,6))
+sns.barplot(x="original_author",y="Popular_score",data=Popular_score_official)
+plt.xticks(rotation = 90)
+plt.xlabel(" Official's govt Twitter Handles")
+plt.ylabel("Popularity Score")
+plt.title("Govt Official's Popularity score")
+plt.show()
 ```
 ![](Govt_poularityscore.png) ![](Influencer_popularity%20score.png)
 
@@ -82,11 +95,26 @@ Reach_score_official['Reach_score'] = Reach_score
 Reach_score_official = Reach_score_official.sort_values("Reach_score",ascending=False)
 Reach_score_official =Reach_score_official.reset_index(drop=True)
 Reach_score_official
+
+##Barplot.
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+##Barplot
+##Barplot
+fig= plt.figure(figsize=(10,6))
+sns.barplot(x="original_author",y="Reach_score",data=Reach_score_official)
+plt.xticks(rotation = 90)
+plt.xlabel(" Official's govt Twitter Handles")
+plt.ylabel("Reach Score")
+plt.title("Govt Officials Reach score")
+plt.show()
 ```
+![](Govt_Reach%20score.png) ![](Influencer_Reach%20score.png)
 ### 3.Relevance score
 I obtained the Relevance  score by ranking the users(government officials and most twitter influencers) based on user mentions.
 ```
-###Reach score
+###Relevance score
 #Parameters of interest = No of retweets, Favorite count.
 #Creating a dataframe with 
 Relevance_score_official= Officials_data[['original_author','user_mentions']]
@@ -98,7 +126,22 @@ Relevance_score_official = Relevance_score_official.groupby('original_author').c
 Relevance_score_official=Relevance_score_official.sort_values("user_mentions",ascending=False)
 Relevance_score_official =Relevance_score_official.reset_index()
 Relevance_score_official
+
+##Barplot
+fig= plt.figure(figsize=(10,6))
+sns.barplot(x="original_author",y="user_mentions",data=Relevance_score_official)
+plt.xticks(rotation = 90)
+plt.xlabel(" Official's govt Twiiter Handles")
+plt.ylabel("Relevance Score")
+plt.title(" Government Officials Relevance score ")
+plt.show()
 ```
+![](Govt_Relevance%20score.png) ![](Influencer_Relevance%20score.png)
+
+## Findings
+From the analysis, using the above scores, it was shown that the most influential users addressed matters Corona Virus which is under health and well-being, Human rights and politics. I obtained this by plotting a bar graph of the most influencial users based on the ranks against the most used hashtags.
+![](Overall&20hashtags..png)
+
 
 ## Conclusion and Recommendation
 
