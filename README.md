@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Defining user segmentation in social media through the use Twitter mining
 
 You can use the [editor on GitHub](https://github.com/Bessy-Mukaria/Blog_2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
