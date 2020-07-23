@@ -150,7 +150,7 @@ level of influence a user has on the society and its environment. And this is a 
 tapped into and utilized by businesses to push products and services through campaigns by partnering
 with the most influential users through marketing and advertising. This is dependent on the category of the content of the user.I would recommend other factors that determine a user’s influence to be factored in determining if oneis more influential other than the use of the three ranks of measuring influence. For instance, the interpersonal relationship of a user with the virtual community can be considered. 
 
-##Resources
-[Measuring User Influence in Twitter: The Million Follower Fallacy](http://twitter.mpi-sws.org/icwsm2010_fallacy.pdf)
-[Web Scraping using Python](https://www.edureka.co/blog/web-scraping-with-python/)
-[ow to calculate Twitter impressions and reach](https://www.tweetbinder.com/blog/twitter-impressions/)
+###Resources
+* [Measuring User Influence in Twitter: The Million Follower Fallacy](http://twitter.mpi-sws.org/icwsm2010_fallacy.pdf)
+* [Web Scraping using Python](https://www.edureka.co/blog/web-scraping-with-python/)
+* [How to calculate Twitter impressions and reach](https://www.tweetbinder.com/blog/twitter-impressions/)
