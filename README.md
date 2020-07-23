@@ -17,10 +17,17 @@ A study is made to make an understanding of the effects of the social media infl
 3. Relevance (Mentions Influence): measured by the relevancy of their content.
 
 ## Methodology
-# Data Extraction
+## Data Extraction
+## Webscraping
 In exctraction of the data, I scrapped [Africa Influential Tweeter](https://africafreak.com/100-most-influential-twitter-users-in-africa)
 and [Africa	leaders response to Corona virus](https://www.atlanticcouncil.org/blogs/africasource/african-leaders-respond-to-coronavirus-ontwitter/#east-africa) websites  to obtain the twitter accounts of the most influential twitter users and top African leaders respectively.
-
+## Twitter mining data.
+Next, I use the tweeter API's to extract data for the twitter users obtained.
+First, I import needed packages. Tweepy is a must when dealing with data from Twitter. Pandas is always the  best  for munging and process data.
+```
+import tweepy
+import pandas as pd
+```
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
