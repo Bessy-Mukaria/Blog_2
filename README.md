@@ -150,35 +150,7 @@ level of influence a user has on the society and its environment. And this is a 
 tapped into and utilized by businesses to push products and services through campaigns by partnering
 with the most influential users through marketing and advertising. This is dependent on the category of the content of the user.I would recommend other factors that determine a user’s influence to be factored in determining if oneis more influential other than the use of the three ranks of measuring influence. For instance, the interpersonal relationship of a user with the virtual community can be considered. 
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bessy-Mukaria/Blog_2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##Resources
+[Measuring User Influence in Twitter: The Million Follower Fallacy](http://twitter.mpi-sws.org/icwsm2010_fallacy.pdf)
+[Web Scraping using Python](https://www.edureka.co/blog/web-scraping-with-python/)
+[ow to calculate Twitter impressions and reach](https://www.tweetbinder.com/blog/twitter-impressions/)
