@@ -65,7 +65,7 @@ Popular_score_official=Popular_score_official.sort_values("Popular_score",ascend
 Popular_score_official = Popular_score_official.reset_index()  #resetting the index
 Popular_score_official
 
-![image](Govt_poularity score.png)
+![image](Govt_poularityscore.png)
 ```
 
 
