@@ -18,7 +18,7 @@ A study is made to make an understanding of the effects of the social media infl
 ## Webscraping
 In the extraction of the data, I scrapped [Africa Influential Tweeter](https://africafreak.com/100-most-influential-twitter-users-in-africa)
 and [Africa	leaders response to Corona virus](https://www.atlanticcouncil.org/blogs/africasource/african-leaders-respond-to-coronavirus-ontwitter/#east-africa) websites to obtain the twitter accounts of the most influential Twitter users and top African leaders respectively.
-## Twitter mining data.
+## Mining Twitter data.
 Next, I use the tweeter APIs to extract data for the twitter users obtained.
 First, I import the needed packages. Tweepy is a must when dealing with data from Twitter. Pandas is always the best for munging and process data.
 ```
