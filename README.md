@@ -49,7 +49,7 @@ In ensuring data quality control  and correct inference of the results during an
 ## Data analysis.
 I did visualization on the clean to data to help get insight of the trend in the data. The main focus was on the three ranking scores of measuring influence; popular score, Relevance score and Reach score.
 ## 1.Popular score
-I obtained the populating score by ranking the users(government officials and most twitter influencers) based on their total number of retweet count and the likes they got on each tweet.
+I obtained the popularing score by ranking the users(government officials and most twitter influencers) based on their total number of retweet count and the likes they got on each tweet.
 ```
 ###Popularity score
 #Parameters of interest = No of retweets, Favorite count.
@@ -67,6 +67,44 @@ Popular_score_official
 
 ![image](Govt_poularityscore.png)
 ```
+## 2.Reach score
+I obtained the reach score by ranking the users(government officials and most twitter influencers) based on their total number of followers and the numbers they are following.
+```
+###Reach score
+#Parameters of interest = No of retweets, Favorite count.
+Reach_score_official = Officials_data[['original_author','followers','following']]
+
+Reach_score_official = Reach_score_official.drop_duplicates('original_author')
+#Creating Popular Score.
+Reach_score = Reach_score_official['followers'] + Reach_score_official['following']
+Reach_score_official['Reach_score'] = Reach_score
+
+Reach_score_official = Reach_score_official.sort_values("Reach_score",ascending=False)
+Reach_score_official =Reach_score_official.reset_index(drop=True)
+Reach_score_official
+```
+## 3.Relevance score
+I obtained the Relevance  score by ranking the users(government officials and most twitter influencers) based on user mentions.
+```
+###Reach score
+#Parameters of interest = No of retweets, Favorite count.
+#Creating a dataframe with 
+Relevance_score_official= Officials_data[['original_author','user_mentions']]
+
+#Checking for missingness.
+Relevance_score_official.isnull().sum()  
+
+Relevance_score_official = Relevance_score_official.groupby('original_author').count()
+Relevance_score_official=Relevance_score_official.sort_values("user_mentions",ascending=False)
+Relevance_score_official =Relevance_score_official.reset_index()
+Relevance_score_official
+```
+
+##Conclusion and Recommendation
+Retweet influence, mentions influence and indegree influence have big a role to play in determining the
+level of influence a user has on the society and its environment. And this is a strength that can be
+tapped into and utilized by businesses to push products and services through campaigns by partnering
+with the most influential users through marketing and advertising. This is dependent on the category of the content of the user.I would recommend other factors that determine a user’s influence to be factored in determining if oneis more influential other than the use of the three ranks of measuring influence. For instance, the interpersonal relationship of a user with the virtual community can be considered. 
 
 
 ### Markdown
