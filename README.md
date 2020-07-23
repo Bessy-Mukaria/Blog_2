@@ -12,10 +12,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 What determines the level of influence a user has on social media?
 A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
 
-1.Popularity (Retweet Influence): measured by the number of Retweets and Likes users get
-2.Reach (Indegree Influence): measured by the size of their audience.
-3.Relevance (Mentions Influence): measured by the relevancy of their content.
+1. Popularity (Retweet Influence): measured by the number of Retweets and Likes users get
+2. Reach (Indegree Influence): measured by the size of their audience.
+3. Relevance (Mentions Influence): measured by the relevancy of their content.
 
+## Methodology
+# Data Extraction
+In exctraction of the data, I scrapped [Africa Influential Tweeter](https://africafreak.com/100-most-influential-twitter-users-in-africa)
+and [Africa	leaders response to Corona virus](https://www.atlanticcouncil.org/blogs/africasource/african-leaders-respond-to-coronavirus-ontwitter/#east-africa) websites  to obtain the twitter accounts of the most influential twitter users and top African leaders respectively.
 
 ### Markdown
 
