@@ -6,9 +6,11 @@ to rank the users. Users are ranked based on their influence.
 This blog is among the challenges undertaken at [10 Academy](https://www.10academy.org/)training in July 2020.
 
 You can use the [editor on GitHub](https://github.com/Bessy-Mukaria/Blog_2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+#Problem statement
+What determines the level of influence a user has on social media?
+A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
