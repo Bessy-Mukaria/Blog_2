@@ -45,6 +45,25 @@ In ensuring data quality control  and correct inference of the results during an
 * Popular score: retweet count and retweet count
 * Relevance score: user mentions
 * Reach score: number of followers and user's following
+## Data analysis.
+I did visualization on the clean to data to help get insight of the trend in the data. The main focus was on the three ranking scores of measuring influence; popular score, Relevance score and Reach score.
+## 1.Popular score
+I obtained the populating score by ranking the users(government officials and most twitter influencers) based on their total number of retweet count and the likes they got on each tweet.
+```
+###Popularity score
+#Parameters of interest = No of retweets, Favorite count.
+Popular_score_official = Officials_data[['original_author','favorite_count','retweet_count']]
+grouping by original author.
+Popular_score_official = Popular_score_official.groupby('original_author').sum()
+
+#Creating Popular Score.
+Popular_score = Popular_score_official['favorite_count'] + Popular_score_official['retweet_count']
+Popular_score_official['Popular_score'] = Popular_score
+
+Popular_score_official=Popular_score_official.sort_values("Popular_score",ascending=False)
+Popular_score_official = Popular_score_official.reset_index()  #resetting the index
+Popular_score_official
+```
 
 ### Markdown
 
