@@ -5,7 +5,7 @@ to rank the users. Users are ranked based on their influence.
 
 This blog is among the challenges undertaken at [10 Academy](https://www.10academy.org/)training in July 2020.
 
-## Problem statement
+### Problem statement
 What determines the level of influence a user has on social media?
 A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
 
