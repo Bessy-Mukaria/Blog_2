@@ -64,9 +64,9 @@ Popular_score_official['Popular_score'] = Popular_score
 Popular_score_official=Popular_score_official.sort_values("Popular_score",ascending=False)
 Popular_score_official = Popular_score_official.reset_index()  #resetting the index
 Popular_score_official
-
-![image](Govt_poularityscore.png)
 ```
+![Government official popularity score](Govt_poularityscore.png)
+
 ### 2.Reach score
 I obtained the reach score by ranking the users(government officials and most twitter influencers) based on their total number of followers and the numbers they are following.
 ```
