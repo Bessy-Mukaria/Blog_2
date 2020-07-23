@@ -136,11 +136,11 @@ plt.ylabel("Relevance Score")
 plt.title(" Government Officials Relevance score ")
 plt.show()
 ```
-![](Govt_Relevance%20score.png) ![](Influencer_Relevance%20score.png)
+![](Govt_Relevance%20score.png) ![](Influencer_Relevance%20Score.png)
 
 ## Findings
 From the analysis, using the above scores, it was shown that the most influential users addressed matters Corona Virus which is under health and well-being, Human rights and politics. I obtained this by plotting a bar graph of the most influencial users based on the ranks against the most used hashtags.
-![](Overall&20hashtags..png)
+![](Overall%20hashtags..png)
 
 
 ## Conclusion and Recommendation
