@@ -5,7 +5,7 @@ to rank the users. Users are ranked based on their influence.
 
 This blog is among the challenges undertaken at [10 Academy](https://www.10academy.org/)training in July 2020.
 
-### Problem statement
+## Problem statement
 What determines the level of influence a user has on social media?
 A study is made to make an understanding of the effects of the social media influencers are in Africa to inform a Social media campaign based on the following factors;
 
@@ -48,7 +48,7 @@ In ensuring data quality control  and correct inference of the results during an
 
 ## Data analysis.
 I did visualization on the clean to data to help get insight of the trend in the data. The main focus was on the three ranking scores of measuring influence; popular score, Relevance score and Reach score.
-## 1.Popular score
+### 1.Popular score
 I obtained the popularing score by ranking the users(government officials and most twitter influencers) based on their total number of retweet count and the likes they got on each tweet.
 ```
 ###Popularity score
@@ -67,7 +67,7 @@ Popular_score_official
 
 ![image](Govt_poularityscore.png)
 ```
-## 2.Reach score
+### 2.Reach score
 I obtained the reach score by ranking the users(government officials and most twitter influencers) based on their total number of followers and the numbers they are following.
 ```
 ###Reach score
@@ -83,7 +83,7 @@ Reach_score_official = Reach_score_official.sort_values("Reach_score",ascending=
 Reach_score_official =Reach_score_official.reset_index(drop=True)
 Reach_score_official
 ```
-## 3.Relevance score
+### 3.Relevance score
 I obtained the Relevance  score by ranking the users(government officials and most twitter influencers) based on user mentions.
 ```
 ###Reach score
